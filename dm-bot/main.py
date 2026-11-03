@@ -170,7 +170,7 @@ async def go_back(call: types.CallbackQuery):
 async def main():
     # Запускаем веб-сервер в фоне
     import uvicorn
-    config = uvicorn.Config(app, host="127.0.0.1", port=8000, log_level="info")
+    config = uvicorn.Config(app, host="127.0.0.0", port=8000, log_level="info")
     server = uvicorn.Server(config)
     
     print("Бот запущен! Веб-сервер работает на порту 8000.")
