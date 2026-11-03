@@ -11,7 +11,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.enums import ParseMode
 
 # --- НАСТРОЙКИ ---
-BOT_TOKEN = "9043777810:AAEHkNypwDRqrL8lVPORXTnZT-OydbYDmVk"
+BOT_TOKEN = "9043777810:AAGomMVikEeDHqbHrWQSUF2GMtkRg8mJznc"
 ADMIN_ID = 7376198853
 ACCESS_KEY = "toverich1"
 
